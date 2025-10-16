@@ -1,0 +1,10 @@
+_temp/
+*.pt
+*.png
+
+# Exclude huge pretrained checkpoints
+flower/baselines/fedwav2vec2/docs/pretrained_wav2vec2/
+**/wav2vec2_checkpoint/**
+
+# exclude upstream Flower framework clone
+flower/
